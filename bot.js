@@ -357,5 +357,5 @@ client.user.setStatus("dnd")
 
 client.login(process.env.BOT_TOKEN);
 client.on('ready',async () => {
-  client.channels.find(ch => ch.id === "520794695765458954" && ch.type === 'voice').join();
+  client.channels.find(ch => ch.id === "513396125214965770" && ch.type === 'voice').join();
 });
