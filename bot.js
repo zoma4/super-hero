@@ -351,7 +351,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers`);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Type +play and enjoy`,"http://twitch.tv/Death Shop")
+client.user.setGame(`WeAreSky`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
