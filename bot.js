@@ -346,7 +346,7 @@ client.on('message', message => {
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Music Bot By Last Codes`);
+      console.log(`Whom i ?`);
         console.log(`----------------`);
       console.log(`ON ${client.guilds.size} Servers`);
     console.log(`----------------`);
@@ -357,5 +357,5 @@ client.user.setStatus("dnd")
 
 client.login(process.env.BOT_TOKEN);
 client.on('ready',async () => {
-  client.channels.find(ch => ch.id === "اي دي الروم الصوتية" && ch.type === 'voice').join();
+  client.channels.find(ch => ch.id === "520794695765458954" && ch.type === 'voice').join();
 });
